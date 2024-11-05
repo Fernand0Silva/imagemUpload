@@ -1,0 +1,13 @@
+#link{
+    text-decoration: none;
+    
+ }
+ .bloco{
+     display: flex;
+     justify-content: space-between;
+     margin-left: 30%;
+ }
+ #btnVoltar{
+     display: flex;
+     margin-top: 20px;
+ }

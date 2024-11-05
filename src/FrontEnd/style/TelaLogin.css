@@ -1,0 +1,16 @@
+#link{
+    text-decoration: none;
+}
+.bloco{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30%;
+}
+#linkHome{
+    
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-left: 30%;
+}

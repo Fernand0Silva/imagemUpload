@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    flex-flow: column nowrap;
+    width: 30%;
+    height: 30%;
+    margin-left: 30%;
+    margin-top: -3%;
+}
+#listarArtesaos{
+    width: 25vw;
+    height: 20vw;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row nowrap;
+    margin-left: 30% ;
+    padding: 10px;
+    margin-top: 10px;
+   
+}
+.blocoProduto{
+    display: flex;
+    justify-content: space-between;
+    width: 54%;
+    height: 50%;
+    
+}
+#cadastroProdutoForm{
+    margin-left: 110%;
+    margin-top: -90%;
+}
+#listarProdutos{
+    width: 25vw;
+    height: 20vw;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row nowrap;
+    margin-left: 59%;
+    margin-top: -20%;
+    padding: 10px;
+    
+}

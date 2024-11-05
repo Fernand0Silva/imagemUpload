@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.produto-detalhes {
+    background-color: red;
+    display: block;
+    justify-content: center;
+    width: 50%;
+    height: 50%;
+    margin: 20px;
+    margin-top: 90% ;
+}
+.produto-detalhesPesquisado{
+    background-color: #007bff;
+}
+
+.produto-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+#searchForm{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    margin-top: -47vw;
+}
+#searchQuery {
+        width: 300px;
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid #ddd;
+    }
+    #btnPesquisa {
+        padding: 10px;
+        margin-left: 10px;
+        border-radius: 5px;
+        background-color: #007bff;
+        color: white;
+        border: none;
+        cursor: pointer;
+    }
+    #listarProdutos, #results {
+        padding: 20px;
+        margin-top: 20px;
+    }
+    .produto-detalhes {
+        background-color: red;
+        width: 50%;
+        height: 50%;
+        margin: 20px;
+    }
+    .produto-card {
+        background-color: #fff;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        padding: 15px;
+        margin: 10px 0;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }

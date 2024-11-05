@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/TelaCadastro.css">
+    <title>Cadastro</title>
+</head>
+<body>
+    <div class="bloco">
+        <form id="Cadastro">
+            <h1>Criar Conta</h1>
+            <label for="">Digite um Nome</label>
+            <input type="text"  name="usuario"  placeholder="usuario" id="nome" required> <br>
+            <label for="">Telefone</label>
+
+            <input type="number" name=""  id="telefone" placeholder="telefone" required> <br>
+            <label for="">Senha</label>
+
+            <input type="password" name=""  id="senha" placeholder="criar senha" required> <br>
+        
+            <input type="submit" onclick="criarConta(); return false"> <br>
+            <button id="btnVoltar">
+                <a id="link" href="./TelaLogin.html">Voltar</a>
+            </button>
+        </form>
+    </div>
+    <script src="./js/TelaCadastro.js"></script>
+</body>
+</html>

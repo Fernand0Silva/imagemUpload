@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/Leilao.css">
+    <title>Leilao</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Leilão do Produto</h1>
+        <div class="produto">
+          <img id="img" src="img/favicon1.jpeg" alt="">
+        </div>
+        <p id="valorMinimo">Preço Inicial: R$ 40,00</p>
+
+        <input id="oferta" type="number" value="" placeholder="digite sua oferta"><br>
+
+        <input id="cliente" type="text" value=""placeholder="digite o seu nome" ><br>
+
+        <input id="tempo" type="number" value=""placeholder="digite o tempo " min="1" ><br>
+        <button onclick="btnTempo()">Tempo</button> <br>
+
+        <button onclick="ofertar()">Ofertar</button> <br>
+       
+        <p id="ultimaOferta">Última oferta: </p>
+        <p id="ultimoCliente">Último Cliente: </p>
+        <p id="tempoLimite">Tempo: </p>
+        <button onclick="limpa()">Limpar</button>
+    </div>
+    <button><a href="Artesao.html">Voltar</a></button>
+    <script src="./js/Leilao.js"></script>
+</body>
+</html>
